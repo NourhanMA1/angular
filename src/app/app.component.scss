@@ -1,0 +1,354 @@
+@font-face {
+  font-family: "Hekaya";
+  src: url("../assets/fonts/FF Hekaya Light.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+#gamemap {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-image: url("../assets/images/Jungle-Game-Map-Final02.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+
+
+  .container {
+    width: 100%;
+    height: 1307vw;
+    background-image: url("../assets/images/Jungle-Game-Map.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow-x: hidden;
+
+    p {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 54%;
+      color: #fff;
+      font-size: 11vw;
+      font-family: Hekaya;
+    }
+
+
+    .button {
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      height: 14vw;
+      width: 20vw;
+      cursor: pointer;
+
+      &.one {
+        background-image: url("../assets/images/button-one.png");
+      }
+
+      &.two {
+        background-image: url("../assets/images/button-two.png");
+      }
+
+      &.three {
+        background-image: url("../assets/images/button-three.png");
+      }
+
+      &.num-1 {
+        bottom: 20vw;
+        left: 11vw;
+      }
+
+      &.num-2 {
+        bottom: 27vw;
+        right: 9vw;
+      }
+
+      &.num-3 {
+        bottom: 84vw;
+        left: 14vw;
+      }
+
+      &.num-4 {
+        bottom: 116vw;
+        right: 15vw;
+      }
+
+      &.num-5 {
+        bottom: 132vw;
+        left: 6.5vw;
+      }
+
+      &.num-6 {
+        bottom: 166vw;
+        right: 5vw;
+      }
+
+
+      &.num-7 {
+        bottom: 178vw;
+        left: 7vw;
+      }
+
+      &.num-8 {
+        bottom: 201vw;
+        right: 13.5vw;
+      }
+
+      &.num-9 {
+        bottom: 234vw;
+        right: 6vw;
+      }
+
+      &.num-10 {
+        bottom: 217vw;
+        left: 11vw;
+      }
+
+      &.num-11 {
+        bottom: 254vw;
+        left: 11vw;
+      }
+
+      &.num-12 {
+        bottom: 265vw;
+        right: 15vw;
+      }
+
+      &.num-13 {
+        bottom: 315vw;
+        left: 15vw;
+      }
+
+      &.num-14 {
+        bottom: 339vw;
+        right: 40vw;
+      }
+
+      &.num-15 {
+        bottom: 355vw;
+        right: 4vw;
+      }
+
+      &.num-16 {
+        bottom: 372vw;
+        left: 7vw;
+      }
+
+      &.num-17 {
+        bottom: 390vw;
+        right: 10vw;
+      }
+
+      &.num-18 {
+        bottom: 406vw;
+        left: 12vw;
+      }
+
+      &.num-19 {
+        bottom: 434vw;
+        right: 7vw;
+      }
+
+      &.num-20 {
+        bottom: 451vw;
+        left: 6vw;
+      }
+
+      &.num-21 {
+        bottom: 476vw;
+        right: 7vw;
+      }
+
+      &.num-22 {
+        bottom: 506vw;
+        left: 8vw;
+
+      }
+
+      &.num-23 {
+        bottom: 527vw;
+        right: 13vw;
+      }
+
+      &.num-24 {
+        bottom: 546vw;
+        left: 10vw;
+      }
+
+      &.num-25 {
+        bottom: 572vw;
+        right: 12vw;
+      }
+
+      &.num-26 {
+        bottom: 593vw;
+        right: 39vw;
+      }
+
+      &.num-27 {
+        bottom: 608vw;
+        left: 5vw;
+      }
+
+      &.num-28 {
+        bottom: 624vw;
+        left: 36vw;
+      }
+
+      &.num-29 {
+        bottom: 641vw;
+        right: 10vw;
+      }
+
+      &.num-30 {
+        bottom: 670vw;
+        left: 8vw;
+      }
+
+      &.num-31 {
+        bottom: 686vw;
+        right: 14vw;
+      }
+
+      &.num-32 {
+        bottom: 712vw;
+        left: 12vw;
+      }
+
+      &.num-33 {
+        bottom: 738vw;
+        right: 9vw;
+      }
+
+      &.num-34 {
+        bottom: 750vw;
+        left: 28vw
+      }
+
+      &.num-35 {
+        bottom: 770vw;
+        left: 4vw;
+      }
+
+      &.num-36 {
+        top: 513vw;
+        right: 10vw;
+      }
+
+      &.num-37 {
+        top: 487vw;
+        left: 8vw;
+      }
+
+      &.num-38 {
+        top: 473vw;
+        right: 8vw;
+      }
+
+      &.num-39 {
+        top: 450vw;
+        left: 6vw;
+      }
+
+      &.num-40 {
+        top: 437vw;
+        right: 10vw;
+      }
+
+      &.num-41 {
+        top: 405vw;
+        left: 10vw;
+      }
+
+      &.num-42 {
+        top: 384vw;
+        right: 9vw;
+      }
+
+      &.num-43 {
+        top: 360vw;
+        left: 15vw;
+      }
+
+      &.num-44 {
+        top: 342vw;
+        right: 5vw;
+      }
+
+      &.num-45 {
+        top: 323vw;
+        left: 12vw;
+      }
+
+      &.num-46 {
+        top: 265vw;
+        right: 6vw;
+      }
+
+      &.num-47 {
+        top: 240vw;
+        left: 10vw;
+      }
+
+      &.num-48 {
+        top: 215vw;
+        right: 1vw;
+      }
+
+      &.num-49 {
+        top: 188vw;
+        left: 18vw;
+      }
+
+      &.num-50 {
+        top: 172vw;
+        right: 7vw;
+      }
+
+      &.num-51 {
+        top: 142vw;
+        left: 15vw;
+      }
+
+      &.num-52 {
+        top: 130vw;
+        right: 2vw;
+      }
+
+      &.num-53 {
+        top: 97vw;
+        left: 8vw;
+      }
+
+      &.num-54 {
+        top: 85vw;
+        right: 3vw;
+      }
+
+      &.num-55 {
+        top: 57vw;
+        left: 8vw;
+      }
+
+      &.num-56 {
+        top: 56vw;
+        right: 11vw;
+      }
+
+    }
+  }
+
+}
